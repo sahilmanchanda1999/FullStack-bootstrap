@@ -32,3 +32,16 @@ body{
 .navbar-dark{
     background-color: #512da8;
 }
+.card-header{
+    background-color:#eec451;
+}
+.block{
+    display: block;
+    width: 100%;
+    border: none;
+ 
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;;
+}
