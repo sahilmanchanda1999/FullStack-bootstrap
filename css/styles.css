@@ -32,9 +32,6 @@ body{
 .navbar-dark{
     background-color: #512da8;
 }
-.card-header{
-    background-color:#eec451;
-}
 .block{
     display: block;
     width: 100%;
