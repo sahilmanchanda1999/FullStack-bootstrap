@@ -34,7 +34,7 @@
                     <li class="nav-item"> <a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> CONTACT</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginbtn">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -185,7 +185,7 @@
                     
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a style="text-decoration:none"  ><button type="button" style="color: aliceblue;" data-toggle="modal" data-target="#tableModal" class="btn btn-block btn-link btn-warning">
+                    <a style="text-decoration:none"  ><button type="button" style="color: aliceblue;" id="reservebtn" class="btn btn-block btn-link btn-warning">
                         Reserve Table</button>
                     </a>
                 </div>
@@ -448,8 +448,18 @@
                 }
                 
             });
-        
+            
+                 
+            $('#reservebtn').click(function(){
+                $('#tableModal').modal();
+                
+            });
+            $('#loginbtn').click(function(){
+                $('#loginModal').modal();
+            }); 
+
         });
+       
     </script>
      <!--
      <script>
